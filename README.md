@@ -1,8 +1,8 @@
-# 🎓 IFIAG Student Portal
+#  IFIAG Student Portal
 
 Application mobile de gestion du portail etudiant pour **IFIAG** (Institut de Formation Inter-entreprises pour l'Administration et la Gestion), developpee avec React Native et Expo.
 
-## 📱 Fonctionnalites
+## Fonctionnalites
 
 - **Authentification** — Connexion et inscription securisees via JWT
 - **Profil Etudiant** — Consultation des informations personnelles et academiques
@@ -10,7 +10,7 @@ Application mobile de gestion du portail etudiant pour **IFIAG** (Institut de Fo
 - **Persistance de session** — Token stocke localement via AsyncStorage
 - **Support multi-plateforme** — Android, iOS et Web
 
-## 🛠 Stack Technique
+##  Stack Technique
 
 | Technologie | Version | Role |
 |---|---|---|
@@ -22,7 +22,7 @@ Application mobile de gestion du portail etudiant pour **IFIAG** (Institut de Fo
 | React Native Paper | 5.x | Composants UI Material |
 | AsyncStorage | 2.x | Stockage local |
 
-## 📂 Structure du Projet
+##  Structure du Projet
 
 ```
 app/
@@ -41,7 +41,7 @@ constants/                # Theme et couleurs
 hooks/                    # Hooks personnalises
 ```
 
-## 🚀 Installation
+##  Installation
 
 ### Prerequis
 
@@ -65,7 +65,7 @@ npx expo start
 
 Scanner le QR code affiche avec l'application Expo Go sur votre telephone.
 
-## ⚙️ Configuration
+##  Configuration
 
 Creer un fichier `.env` a la racine du projet :
 
@@ -73,13 +73,13 @@ Creer un fichier `.env` a la racine du projet :
 API_URL=https://ifiag.pidefood.com/api
 ```
 
-## 📸 Apercu
+##  Apercu
 
 | Connexion | Inscription | Profil |
 |---|---|---|
 | Formulaire avec validation | Inscription complete | Informations academiques |
 
-## 📄 API
+##  API
 
 L'application communique avec l'API REST IFIAG :
 
